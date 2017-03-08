@@ -30,6 +30,7 @@ var configDB = require('./config/database.js');
 //     console.log('Running CORS Anywhere on ' + host + ':' + port);
 // });
 
+
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
